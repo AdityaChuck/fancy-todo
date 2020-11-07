@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "noImplicitReturns": true,
     "target": "esnext",
     "module": "esnext",
     "strict": true,
+    "strictNullChecks": false,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
@@ -12,7 +16,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "vuetify"
     ],
     "paths": {
       "@/*": [
